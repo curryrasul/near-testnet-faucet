@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ $1 == "" ]];then
-  echo usage $0 kalloc.testnet
+  echo usage $0 <ACCOUNT_NAME>
   exit 1
 fi
 ACCOUNT=$1
